@@ -1,2 +1,8 @@
 node_modules/
 .env
+server/.DS_Store
+public/styles/.DS_Store
+public/images/.DS_Store
+public/images/icons.png
+public/images/sam.jpg
+public/.DS_Store

@@ -1,19 +1,15 @@
-$(document).ready(function() {
+$(function() {
+
   $(".new-tweet textarea").on("keyup", function() {
-    var tweetLength = $(this).val().length;
-    var counter = $(this).siblings("span")
+    var $input = $(this);
+    var $tweetLength = $input.val().length;
+    var $counter = $input.siblings("span.counter")
 
-    counter.text(140 - tweetLength);
-      if(tweetLength > 140) {
-        counter.css("color", "red");
-      };
-
-      if (tweetLength <= 140) {
-        counter.css("color", "black");
-      };
-   });
+    $counter.text(140 - $tweetLength);
+    if($tweetLength > 140) {
+      $counter.addClass("invalid");
+    } else {
+      $counter.removeClass("invalid");
+    };
+  });
 });
-
-
-
-

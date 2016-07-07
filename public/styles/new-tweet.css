@@ -1,0 +1,37 @@
+.container {
+  padding: 2em;
+}
+
+.container .new-tweet {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 1em;
+  padding-top: 0;
+  background: #F5F5F5;
+  display: none;
+}
+.container .new-tweet .counter {
+  float: right;
+  font-style: italic;
+}
+.container .new-tweet h2 {
+  border-bottom: 1px solid black;
+}
+
+.container .new-tweet form textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+.container .new-tweet form input[type=submit] {
+  margin-top: 1px;
+}
+
+.container .new-tweet .invalid {
+  color: red;
+}
+
+.container .new-tweet form span[class=counter] {
+  margin-top: 2px;
+}
+

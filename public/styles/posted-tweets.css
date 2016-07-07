@@ -1,0 +1,66 @@
+.tweet {
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-top: 2em;
+}
+
+.tweet .tweet-header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: #F5F5F5;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
+
+ .tweet .tweet-header .headshot {
+  height: 50px;
+  width: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  vertical-align: top;
+}
+
+.tweet .tweet-header .tweet-name {
+  display: inline-flex;
+  vertical-align: top;
+  font-family: calibri;
+
+}
+
+.tweet .tweet-header .tweet-handle {
+  font-style: italic;
+  float: right;
+}
+
+.tweet .tweet-section {
+  height: 100%;
+  word-break: break-word;
+ }
+
+.tweet .tweet-section .tweet-content {
+  padding-left: 5px;
+}
+
+.tweet .tweet-footer {
+  height: 35px;
+  width: 100%;
+  border-top: 1px solid gray;
+  padding: 5px;
+ }
+
+.tweet .tweet-footer .post-date {
+  font-size: 12px;
+  float: left;
+ }
+
+.tweet .tweet-footer .tweet-footer-span {
+  float: right;
+  opacity: 0;
+}
+
+.tweet:hover .tweet-footer .tweet-footer-span {
+  float: right;
+  opacity: 1;
+}
